@@ -6,7 +6,7 @@ import os
 from io import BytesIO
 
 # Initialize AWS S3 client
-s3 = boto3.client('s3', aws_access_key_id='AKIATROPCW2PVLZXKFGW', aws_secret_access_key='f899hKgOG+04qROasgD+QDc6ttITD5Bpq8ERRrY7')
+s3 = boto3.client('s3', aws_access_key_id='aws_key', aws_secret_access_key='secret_key')
 
 # Replace with your S3 bucket name
 bucket_name = 'studentattendencesystem'
